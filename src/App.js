@@ -1,14 +1,21 @@
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <h1>My application</h1>
-      <p>This is Home Page</p>
-      <hr></hr>
-      <p>This is Footer</p>
-    </div>
-  );
+import App1 from "./App1"
+import App2 from "./App2"
+function App(props) {
+  const flg = props.flag;
+  console.log(props.flag)
+  if (flg){
+    return <App1/>;
+  }else{
+    return <App2 name="Mike" age={25} />;
+  }
+  // return (
+  //   <>
+  //     <App1/>
+  //     <hr></hr>
+  //     <App2 name="Mike" age={25} />
+  //   </>
+  // );
 }
 
 export default App;
