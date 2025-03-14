@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-// import App5 from './App5';
-import Login from './Login';
+import App12 from './App12';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App flag = {false} />);
-// root.render(<App5 />);
-root.render(<Login/>)
+// root.render(<Main1 flag={true} />);
+root.render(<App12/>)
