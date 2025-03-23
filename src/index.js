@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import App25 from './App25';
+import App29 from './App29';
 
 // const sqrfunction= (n) =>{
 //     return n*n;
@@ -18,4 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //      <App17 val={7} fn={sqrfunction}/>
 // </>
 // );
-root.render(<App25/>)
+// root.render(<App26>
+//     <h1>Hello World</h1>
+// </App26>)
+root.render(<App29/>)
