@@ -6,10 +6,10 @@ export default function App19() {
     const [wickets,setWickets] = useState(0)
 
     useEffect(()=> {
-        console.log('Good job');
+       if (runs > 0) console.log('Good job');
     },[runs])
     useEffect(()=> {
-        console.log("Better Luck next time");
+       if (wickets > 0) console.log("Better Luck next time");
     },[wickets])
   return (
     <div>
