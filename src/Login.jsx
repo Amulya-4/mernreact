@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Login() {
   const [user, setUser] = useState();
   const [password, setPassword] = useState();
-  const [flag,setFlag] = useState(true)
+  const [setFlag] = useState(true)
   const validateUser = () => {
     if (user === "john@gmail.com" && password === "1234") {
       console.log("Valid User");

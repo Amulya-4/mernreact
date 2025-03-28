@@ -7,7 +7,7 @@ import Login from "./Login"
 import { FaHome, FaPhone  } from "react-icons/fa";
 export default function App22() {
   return (
-    <div>
+    <div> 
       <Router>
         <p>
           <Link to="/home"><FaHome />Home</Link> | <Link to="/about">About</Link> |
